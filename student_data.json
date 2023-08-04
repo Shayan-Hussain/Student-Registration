@@ -1,0 +1,27 @@
+[
+        {
+                "id": 1,
+                "full_name": "John Doe",
+                "age": 20,
+                "enrolled": "2018-01-01"
+        },
+        {
+                "id": 2,
+                "full_name": "Jane Doe",
+                "age": 25,
+                "enrolled": "2016-01-01"
+        },
+        {
+                "id": 3,
+                "full_name": "John Smith",
+                "age": 30,
+                "enrolled": "2017-01-01"
+        },
+        {
+                "id": 4,
+                "full_name": "Jane Smith",
+                "age": 35,
+                "enrolled": "2015-01-01"
+        }
+]
+

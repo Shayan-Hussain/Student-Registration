@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main_parent">
+        <img src="background.jpg" alt="image" class="backgroung_img">
+        <h1>Register New students.</h1>
+        <div class="inputs_container">
+            <input type="text" placeholder="First Name" class="inputs animate" id="f_name">
+            <input type="text" placeholder="Last Name" class="inputs animate" id="l_name">
+            <input type="date" palceholder="Date of Birth" class="inputs date-input" id="b_date">
+            <button type="submit" class="submit_btn" id="sub_btn" onclick="print()">Submit</button>
+        </div>
+        <table class="table" id="table">
+            <tr class="heading_row">
+                <th class="tb_headings" id="sr_heading">Sr.</th>
+                <th class="tb_headings" id="name_heading">Name</th>
+                <th class="tb_headings" id="age_heading">Age</th>
+                <th class="tb_headings" id="enrol_heading">Date Enrolled</th>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

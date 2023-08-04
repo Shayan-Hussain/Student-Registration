@@ -1,0 +1,119 @@
+
+body {
+    margin : 0em;
+    padding : 0em;
+}
+
+.background_img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: ;
+}
+
+.main_parent {
+    width : 100%;
+    height : 100vh;
+    background-color : rgb(109, 78, 128);
+    display: inline-grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 20% 30% 40% 10%;
+    grid-template-areas: 
+        ".      heading     ."
+        ".      inputs      ."
+        ".      table       ."
+        ".      footer      ."
+}
+
+h1 {
+    color: white;
+    display: flex;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    grid-area: heading;
+}
+
+.inputs_container {
+    /* basic_design */
+        grid-area : inputs;
+        padding-top : 1em;
+        padding-bottom: 1em;
+        margin : 0;
+        border : 0;
+        border-radius : 1em;
+        background-color : rgba(100, 48, 100, 0.767);
+        box-shadow : 0em 0.5em rgb( 0 , 0 , 0 );
+    /* display_settings */
+        display : inline-grid;
+        row-gap : 1em;
+}
+
+.inputs {
+    margin-left: 1em;
+    margin-right: 1em;
+    border: 0;
+    padding: 1em;
+    border-radius: 1em;
+    background-color : rgba(6, 169, 184, 0.807);
+    color : white;
+    box-shadow : 0px 5px rgb( 0 , 0 , 0 );
+}
+
+.inputs::placeholder {
+    color: white;
+}
+
+.inputs:hover {background-color:#3e8e41 ;}
+
+.inputs:active {
+    background-color: #3e8e41;
+    box-shadow: 0px 3px rgb( 0 , 0 , 0 );
+    transform: translateY(2px);
+}
+.submit_btn {
+    /* basic design */
+    margin-right: 20em;
+    margin-left: 20em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border : 0;
+    border-radius : 1em;
+    background-color:rgba(21, 110, 199, 0.807);
+    color: white;
+    box-shadow: 0px 5px rgb( 0 , 0 , 0 );
+
+    /* transition */
+    transition : 0.15s;
+}
+
+.submit_btn:hover {background-color: #3e8e41}
+
+.submit_btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0px 1px rgb( 0 , 0 , 0 );
+  transform: translateY(4px);
+}
+
+.table {
+    width : 100%;
+    height : 100%;
+    grid-area : table;
+    margin-top : 1em;
+    border-radius: 1em;
+    border : 1pt;
+    border-color :rgb( 0 , 0 , 0 )
+}
+
+.heading_row {
+    background-color :rgba(100, 48, 100, 0.767);
+}
+
+#tb_headings {
+    padding-top : .25px;
+    padding-bottom : .25px;
+
+}
+
+
